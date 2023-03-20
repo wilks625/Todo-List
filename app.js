@@ -14,7 +14,7 @@ function addTodo(event) {
     todoDiv.classList.add("todo");
     //Create LI
     const newTodo = document.createElement("li");
-    newTodo.innerText = "hey";
+    newTodo.innerText = "test";
     newTodo.classList.add("todo-item");
     todoDiv.appendChild(newTodo);
     //Checkmark button
